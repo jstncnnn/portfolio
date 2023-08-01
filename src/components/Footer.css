@@ -1,0 +1,15 @@
+.footer-container{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.address, .phone, .mail {
+    display: flex;
+    align-items: center;
+  }
+  
+.icon-address, .icon-phone, .icon-mail {
+    margin-right: -20px; /* Add specific margin for the home icon */
+}
+  
