@@ -1,0 +1,31 @@
+
+
+.about-container{
+    background-color: rgb(103, 128, 139);
+    margin: 0;
+    padding: 1.5rem 20rem;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.my-icon{
+    height: 20rem;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-icons{
+    text-align: center;
+}
+
+.left-content{
+    margin: auto;
+}

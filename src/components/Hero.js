@@ -1,6 +1,5 @@
 import "./Hero.css";
 
-import React from "react";
 import HeroBg from "../assets/bg.png";
 import { Link } from "react-router-dom";
 
@@ -12,7 +11,7 @@ function Hero() {
       </div>
       <div className="content">
         <p>Hi, Im John Justin R. Cunanan</p>
-        <h1>Aspiring Front-End Developer</h1>
+        <h1>Front-End Developer</h1>
         <div>
           <Link to="/project" className="btn">
             Projects
