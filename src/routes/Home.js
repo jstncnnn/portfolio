@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
@@ -9,10 +10,13 @@ import ContactMe from "../components/ContactMe";
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <style>{"body {background-color: red;}"}</style>
+      </Helmet>
       <Navbar />
       <Hero />
-      <Services />
       <AboutMe />
+      <Services />
       <ContactMe />
       <Footer />
     </div>

@@ -7,40 +7,32 @@ function Navbar() {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => setClicked(!clicked);
 
-  const [color, setColor] = useState(false);
-
-  const changeColor = () => {
-    if (window.scrollY >= 1) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeColor);
-
   return (
-    <div className={color ? "header header-bg" : "header"}>
-      {/* To change the color of header when scrolled */}
+    <div className="header">
       <Link to="/">
-        <h1>Justin</h1>
+        <h1 className="h1-nav">Justin</h1>
       </Link>
-      <ul
-        onClick={handleClick}
-        className={clicked ? "nav-menu active" : "nav-menu"}
-      >
+      <ul className={clicked ? "nav-menu active" : "nav-menu"}>
         {/* To make the nav-menu be shown when the hamburger is clicked */}
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="header-h1">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/project">Project</Link>
+          <Link to="/Services" className="header-h1">
+            Services
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" className="header-h1">
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" className="header-h1">
+            Contact
+          </Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>

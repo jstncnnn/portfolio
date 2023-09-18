@@ -1,64 +1,63 @@
-.mask{
+.hero{
     height: 100vh;
 }
 
-.hero-bg{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: cover;
-    object-fit: cover;
-}
 
-.hero .content{
+.content-left{
+    padding-right: 1rem;
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    z-index: 1;
+    top: 40%;
+    left: 25%;
+    height: 17.4rem;
+    width: 43rem;
 }
 
-.hero .content h1{
+.hero .content-right{
+    position: relative;
+    top: 35%;
+    left: 62%;
+}
+.hero .content-left h1{
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
-    font-weight: 200;
-}
-
-p{
-    font-size: 1.5rem;
     font-weight: 500;
 }
 
-.mask::after{
-    content: "";
-    position: absolute;
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    opacity: 0.8;
+.ig{
+    border-radius: 40px;
+  color: #fff;
+  font-size: 220px;
+  line-height: 250px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 
-.content .btn{
-    margin: 1rem 0.2rem; /* Add spacing between the buttons */
+.my-icon{
+    border-radius: 50% 90% 50% 83%;
+    height: 20rem;
+    width: 20rem;
+    max-width: 100%;
 }
+
+
+.p-hero{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -20px;
+    padding-bottom: 1.5rem;
+}
+
 
 
 
 @media screen and (max-width: 640px) { /* Responsive for smaller screens */
-    .hero .content h1{
+    .hero .content-left h1{
         font-size: 3rem;
     }
     
-    .hero .content p{
+    .hero .content-left p{
         font-size: 1.4rem;
     }
 
-    .btn {
-        padding: 8px 20px;
-        font-size: 0.8rem;
-      }
 }

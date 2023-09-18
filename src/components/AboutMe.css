@@ -1,31 +1,25 @@
-
-
 .about-container{
-    background-color: rgb(103, 128, 139);
-    margin: 0;
-    padding: 1.5rem 20rem;
-    width: 100%;
-    padding: 50px;
     text-align: center;
+    padding: 15rem 0rem;
+    background-color: #FAF9F6;
+    display: flex;
+    align-items: center;
 }
 
 
-.my-icon{
-    height: 20rem;
-    width: 20rem;
-    max-width: 100%;
+.workspace-icon{
+    height: 21rem;
+    width: 31rem;
+    border-radius: 1.7rem;
 }
 
-.about-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+.image-side{
+    background-color: #FAF9F6;
+    padding: 0 15rem 0 16rem;
 }
 
-.about-icons{
-    text-align: center;
-}
-
-.left-content{
-    margin: auto;
+.content-side{
+    position: relative;
+    bottom: 9.5rem;
+    
 }

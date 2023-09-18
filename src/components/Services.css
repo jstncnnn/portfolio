@@ -1,6 +1,8 @@
 .services-container{
-    background-color: rgb(91, 135, 155);
     margin: 0;
-    padding: 1.5rem 0;
+    padding: 1.5rem 1.5rem;
     text-align: center;
+    z-index: 0;
+    background-color: #FAF9F6;  
 }
+
