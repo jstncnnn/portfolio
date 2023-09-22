@@ -10,9 +10,6 @@ import ContactMe from "../components/ContactMe";
 const Home = () => {
   return (
     <div>
-      <Helmet>
-        <style>{"body {background-color: red;}"}</style>
-      </Helmet>
       <Navbar />
       <Hero />
       <AboutMe />

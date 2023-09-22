@@ -16,10 +16,11 @@ h1, h4, p, a{
 
 ul{
   list-style-type: none;
+  background-color: #EDEADE;
 }
 
 *::-webkit-scrollbar{
-  width: 0.5rem;
+  width: 0;
 }
 
 
