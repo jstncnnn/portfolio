@@ -3,17 +3,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 90px;
+    height: 50px;
     z-index: 2;
-    background-color: #EDEADE;
+    background-color: #fff;
 }
 
 
 
 .h1-nav{
-    background-color: #EDEADE;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 ul{
@@ -36,13 +37,12 @@ ul{
 }
 
 .nav-menu li{
-    background-color: #EDEADE;
     padding: 0 1rem;
 }
 
 .nav-menu li a{
     background-color: transparent;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 

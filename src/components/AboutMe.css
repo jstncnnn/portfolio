@@ -1,7 +1,7 @@
 .about-container{
     text-align: center;
     padding: 10rem 0rem;
-    background-color: #FAF9F6;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -24,11 +24,11 @@
 
 .content-side h3{
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     margin-bottom: .5rem;
     text-transform: uppercase;
-    color: rgb(252, 42, 42);
+    color: #1E90FF;
 
 }
 
@@ -43,11 +43,12 @@
 
 .content-side p{
     text-align: justify;
-    font-size: 1rem;
+    font-size: .9em;
     word-spacing: 1px;
     letter-spacing: 1px;
     padding-right: 15rem;
     margin-bottom: 1rem;
+    color: #373737;
 }
 
 .image-side .emoji-icon{

@@ -1,7 +1,56 @@
 .contact-container{
-    margin: 0;
+    margin: 0 auto;
     padding: 1.5rem 0;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
+
+.contact-content{
+    position: relative;
+    left: 25%;
+}
+
+.contact-details{
+    display: flex;
+}
+
+.contact-container p{
+    padding: 1rem 0 2rem 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.contact-container h3{
+    font-size: 1rem;
+    color: #1E90FF;
+    font-weight: 800;
+}
+
+.contact-details p{
+    font-size: 1rem;
+}
+.contact-details h3{
+    font-size: 1rem;
+}
+
+.contact-info h3{
+    color: black;
+}
+
+.contact-info p{
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.contact-iconbox{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+    padding-right: 10rem;
+}
+
+.contact-icons{
+    border-radius: 50% 50% 50% 50%;
+}
+
+
+
