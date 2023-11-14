@@ -5,7 +5,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="AboutMe">
       <div className="image-side">
         <img src={workspace} className="workspace-icon" alt="workspace-icon" />
       </div>

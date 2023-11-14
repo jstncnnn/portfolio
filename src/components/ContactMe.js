@@ -7,7 +7,7 @@ import { TbHandFinger } from "react-icons/tb";
 
 function ContactMe() {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="ContactMe">
       <div className="contact-top">
         <h3>CONTACT</h3>
         <p>

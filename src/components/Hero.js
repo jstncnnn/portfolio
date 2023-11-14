@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="Home">
       <div className="content">
         <div className="content-left">
           <h1 className="h1-hero">Front-End React Developer</h1>

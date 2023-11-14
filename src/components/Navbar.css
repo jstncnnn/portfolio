@@ -5,7 +5,7 @@
   padding: 1rem;
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 80px;
   z-index: 2;
   background-color: #fff;
 }
@@ -13,6 +13,12 @@
 .h1-nav {
   font-weight: 600;
   font-size: 30px;
+  padding-left: 2rem;
+  color: #464850;
+}
+
+.h1-nav:hover {
+  color: #1e90ff;
 }
 
 ul {
@@ -41,7 +47,12 @@ ul {
 .nav-menu li a {
   background-color: transparent;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
+  color: #464850;
+}
+
+.nav-menu li a:hover {
+  color: #1e90ff;
 }
 
 .hamburger {
@@ -55,7 +66,7 @@ ul {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
+    background: #fff;
     position: absolute;
     top: 0;
     left: -150%;
