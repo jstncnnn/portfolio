@@ -1,60 +1,84 @@
-.about-container{
+.about-container {
+  padding: 10rem 15rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.workspace-icon {
+  height: 20rem;
+  width: 30rem;
+  border-radius: 1.7rem;
+}
+
+.content-side {
+  width: 30rem;
+}
+
+.image-side {
+  text-align: center;
+}
+
+.content-side h3 {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #1e90ff;
+}
+
+.content-side h4 {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.content-side p {
+  text-align: justify;
+  font-size: 1em;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  color: #373737;
+}
+
+@media (max-width: 1550px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-side h3,
+  .content-side h4,
+  .content-side p {
     text-align: center;
-    padding: 10rem 0rem;
-    background-color: #fff;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+  }
+
+  .content-side p {
+    letter-spacing: 0;
+  }
 }
 
-
-.workspace-icon{
-    height: 17rem;
-    width: 25rem;
+@media (max-width: 460px) {
+  .about-container {
+    padding: 4rem 10rem 0 10rem;
+  }
+  .workspace-icon {
+    height: 15rem;
+    width: 21rem;
     border-radius: 1.7rem;
+  }
+
+  .content-side p {
+    width: 100%;
+    padding: 0 5rem;
+  }
+
+  .image-side {
+    padding-bottom: 1rem;
+  }
 }
-
-.image-side{
-    padding: 0 15rem 0 23rem;
-}
-
-.content-side{
-    padding: 0 1.5rem 0 5rem;   
-}
-
-.content-side h3{
-    text-align: left;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: .5rem;
-    text-transform: uppercase;
-    color: #1E90FF;
-
-}
-
-.content-side h4{
-    text-align: left;
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    color: black;
-}
-
-.content-side p{
-    text-align: justify;
-    font-size: .9em;
-    word-spacing: 1px;
-    letter-spacing: 1px;
-    padding-right: 15rem;
-    margin-bottom: 1rem;
-    color: #373737;
-}
-
-.image-side .emoji-icon{
-    height: 6rem;
-    position: absolute;
-    left: 34.5rem;
-    top: 67rem;
-}
-

@@ -1,23 +1,21 @@
-h4{
-    color:  #EDEADE;
-    background-color: transparent;
-    font-size: 13px;
-    text-align: center;
+h4 {
+  color: #edeade;
+  background-color: transparent;
+  font-size: 13px;
+  text-align: center;
 }
 
-.left{
-    width: 50%;
+.left {
+  width: 50%;
 }
 
-.right{
-    text-align: center;
-    width: 50%;
+.right {
+  text-align: center;
+  width: 50%;
 }
 
-
-.footer{
-    display: flex;
-    padding: 1.3rem;
-    background-color: rgba(0,0,0,0.8);
+.footer {
+  display: flex;
+  padding: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.8);
 }
-

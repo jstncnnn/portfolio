@@ -1,56 +1,99 @@
-.contact-container{
-    margin: 0 auto;
-    padding: 1.5rem 0;
+.contact-left {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-top {
+  text-align: center;
+}
+
+.contact-container p {
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.contact-container h3 {
+  padding-top: 2rem;
+  font-size: 1rem;
+  color: #1e90ff;
+  font-weight: 800;
+}
+
+.contact-details p {
+  font-size: 1rem;
+}
+.contact-details h3 {
+  font-size: 1rem;
+}
+
+.contact-info h3 {
+  color: black;
+}
+
+.contact-info p {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.contact-iconbox {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+  padding-left: 5rem;
+  align-items: center;
+}
+
+.contact-icons {
+  border-radius: 50% 50% 50% 50%;
+}
+
+.contact-info p {
+  padding-top: 5px;
+}
+
+.contact-box {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+}
+
+form {
+  margin: 35px;
+  height: 24rem;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 0 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.handFinger {
+  display: inline-block;
+  transform: rotate(180deg);
+  font-size: 2rem;
+}
+
+@media (max-width: 840px) {
+  .contact-left {
     display: flex;
-}
-
-.contact-content{
-    position: relative;
-    left: 25%;
-}
-
-.contact-details{
+    flex-direction: column;
+  }
+  .contact-container {
+    padding-left: 0;
+  }
+  .contact-details {
     display: flex;
+    justify-content: center;
+  }
 }
-
-.contact-container p{
-    padding: 1rem 0 2rem 0;
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-.contact-container h3{
-    font-size: 1rem;
-    color: #1E90FF;
-    font-weight: 800;
-}
-
-.contact-details p{
-    font-size: 1rem;
-}
-.contact-details h3{
-    font-size: 1rem;
-}
-
-.contact-info h3{
-    color: black;
-}
-
-.contact-info p{
-    font-weight: 100;
-    font-size: .9rem;
-}
-
-.contact-iconbox{
-    flex-wrap: wrap;
-    display: flex;
-    gap: 1rem;
-    padding-right: 10rem;
-}
-
-.contact-icons{
-    border-radius: 50% 50% 50% 50%;
-}
-
-
-

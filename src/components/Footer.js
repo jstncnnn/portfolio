@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <h4 className="left">Copyright © 2023. All rights are Reserved</h4>
       <h4 className="right">
-        For further information and inquiries, kindly e-mail me
+        For further information and inquiries, kindly contact me
       </h4>
     </div>
   );
