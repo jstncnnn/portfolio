@@ -23,9 +23,11 @@ function AboutMe() {
           sure designs become websites that work well and look good, all while
           keeping projects on schedule.
         </p>
-        <a href={Resume} download="Resume.pdf">
-          <button>My Resume</button>
-        </a>
+        <div className="resume-btn">
+          <a href={Resume} download="Resume.pdf">
+            <button class="buttonDownload">My Resume</button>
+          </a>
+        </div>
       </div>
     </div>
   );
