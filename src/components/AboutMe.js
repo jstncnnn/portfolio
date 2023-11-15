@@ -2,6 +2,7 @@ import "./AboutMe.css";
 
 import workspace from "../assets/workspace.jpg";
 import React from "react";
+import Resume from "../assets/Resume.pdf";
 
 function AboutMe() {
   return (
@@ -22,6 +23,9 @@ function AboutMe() {
           sure designs become websites that work well and look good, all while
           keeping projects on schedule.
         </p>
+        <a href={Resume} download="Resume.pdf">
+          <button>My Resume</button>
+        </a>
       </div>
     </div>
   );
